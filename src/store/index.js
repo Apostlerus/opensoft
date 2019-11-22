@@ -32,7 +32,6 @@ export default new Vuex.Store({
       commit('updateItems', items);
     },
     loadNumberOfLicenses({ commit }) {
-      console.log(numberOfLicenses);
       const { licenses } = numberOfLicenses;
       commit('loadNumberOfLicenses', licenses);
     },

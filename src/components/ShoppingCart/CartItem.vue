@@ -36,16 +36,11 @@ export default {
       justify-content: space-between;
       padding: 10px 20px;
       &:hover{
-        /*border: 1px solid #90CAF9;*/
         background-color: #E3F2FD;
-        /*border-style: inset;*/
         outline: 1px solid #90CAF9;
         outline-offset: -1px;
       }
     }
-    /*span.dollar-sign {*/
-    /*  content: "\0024";*/
-    /*}*/
     .price-per-license {
       color: #777;
       &::before {

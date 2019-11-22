@@ -24,23 +24,9 @@ export default {
   },
   methods: {
     onChange({ target }) {
-      console.log(target);
       this.$emit('update:value', Number(target.value));
     },
   },
-  // watch: {
-  //   value: {
-  //     handler(value) {
-  //       console.log(value);
-  //       this.$emit('update:value', value);
-  //     },
-  //   },
-  // },
-  // data() {
-  // return {
-  //   mutableValue: this.value,
-  // };
-  // },
 };
 </script>
 <style scoped lang="scss">

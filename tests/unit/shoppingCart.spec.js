@@ -3,11 +3,6 @@ import VueMaterial from 'vue-material';
 import ShoppingCart from '@/components/ShoppingCart.vue';
 
 describe('ShoppingCart', () => {
-  // add this before each
-  beforeEach(() => {
-    // const localVue = createLocalVue();
-    // localVue.use(VueMaterial);
-  });
   describe('ShoppingCart.vue', () => {
     const localVue = createLocalVue();
     localVue.use(VueMaterial);
@@ -44,7 +39,6 @@ describe('ShoppingCart', () => {
           },
         },
       });
-      // wrapper.vm.$store.dispatch = jest.fn();
       expect(wrapper.vm.$el).toMatchSnapshot();
     });
   });
