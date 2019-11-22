@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShoppingCart ShoppingCart.vue should render content correctly 1`] = `
+<div
+  class="full-control shopping-cart"
+>
+  <cartitem-stub
+    item="[object Object]"
+  />
+  <cartitem-stub
+    item="[object Object]"
+  />
+  <cartitem-stub
+    item="[object Object]"
+  />
+   
+  <md-divider-stub />
+   
+  <numberoflicenses-stub
+    items="1,2,3,10,100,1000"
+    value="10"
+  />
+   
+  <md-divider-stub />
+   
+  <div
+    class="bottom-group"
+  >
+    <!---->
+     
+    <md-button-stub
+      class="md-raised md-primary button-buy"
+      disabled="true"
+      mdripple="true"
+      type="button"
+    >
+      Buy now
+    </md-button-stub>
+     
+    <!---->
+  </div>
+</div>
+`;

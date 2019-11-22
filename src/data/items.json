@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "planNumber": 1,
+      "price": 13,
+      "active": false
+    },
+    {
+      "id": 2,
+      "planNumber": 2,
+      "price": 22,
+      "active": false
+    },
+    {
+      "id": 3,
+      "planNumber": 3,
+      "price": 34,
+      "active": false
+    }
+  ]
+}

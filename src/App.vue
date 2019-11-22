@@ -1,11 +1,5 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <ShoppingCart/>
 </template>
 
 <style lang="scss">
@@ -30,3 +24,12 @@
   }
 }
 </style>
+<script>
+import ShoppingCart from './components/ShoppingCart.vue';
+
+export default {
+  components: {
+    ShoppingCart,
+  },
+};
+</script>
